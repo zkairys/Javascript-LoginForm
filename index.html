@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Login Form</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+    <div class="center">
+        <a class="icons" id="icon1"  href="/">
+            <img src="img/icon11.png" alt="icon1" height="" width="">
+            <p>Create Account</p>
+        </a>
+        <a class="icons" id="icon2"  href="/">
+            <img src="img/icon22.png" alt="icon2" height="" width="">
+            <p>Login</p>
+        </a>
+        <a class="icons" id="icon3"  href="/">
+            <img src="img/icon33.png" alt="icon3" height="" width="">
+            <p>Shopping Cart</p>
+        </a>
+    </div>    
+    <div class="lines">
+            <hr>
+            <hr>
+    </div>
+    <div class="container"> 
+        <div class="row">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Secure Login</h3>
+                    </div>
+                    <div class="invalid-crediantials-error">
+                        <img src="img/triangle.png" alt="triangle" height="" width=""><p>Please correct the marked fields.</p>
+                    </div>
+
+                    <div class="spiner">
+                        <p>You will be Logged in...</p>
+                        <div class="spinner-circle"></div>
+                    </div>
+
+
+                        <div class="panel-body" id="panel">
+                            <form accept-charset="UTF-8" role="form" id="form">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label for="email">E -mail address</label>
+                                        <input class="form-control" id="email" placeholder="" name="email" type="text">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Password</label>
+                                        <input class="form-control" id="password" placeholder="" name="password" type="password" value="">
+                                    </div>
+                                    <div class="forgot">
+                                            <p>Forgot your password?&nbsp;</p><a href="/" class="link">Request a new one.</a>
+                                    </div>
+                                    <input class="btn btn-lg btn-block" id="submit" type="submit" value="Login">
+                                    <div class="register">
+                                            <p>Not registered yet?&nbsp;</p><a href="/" class="link">Register now for free!</a>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                </div>            
+        </div>
+    </div>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
